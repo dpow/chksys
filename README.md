@@ -16,9 +16,13 @@ list of files and permissions on record to ones it amasses at runtime, and repor
 any changes found.
 
 Record current system state: `chksys record`
+
 Verify current system state: `chksys verify`
+
 Back up the current log files: `chksys backup`
+
 Empty the current log files: `chksys dump`
+
 Need some help? `chksys help`
 
 If you're looking for a program with more sophistication, you are probably looking
@@ -37,10 +41,14 @@ TO DO
 -----
 o  Add automatic recognition of SHA1 command by OS, so users don't have to 
    change it themselves.
+   
 o  Condense permissions & checksum logs into one file, not two. 
+
 o  Add sophistication. Feel free to send me pull requests if you have something
    you'd like to see added.
+   
 o  Optimize the code. It's not efficient at the moment.
+
 o  Needs a cooler one-liner for installation!
 
 Enjoy!
