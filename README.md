@@ -5,8 +5,8 @@ A lightweight tool for recording and verifying permissions and SHA1 checksums of
 Install Me
 ----------
 Non-one-liners need not apply.
-`git clone https://github.com/dpow/chksys.git && cd chksys && \
-chmod go-rwx chksys && chmod u+x chksys && cp chksys /usr/local/bin`
+`git clone https://github.com/dpow/chksys.git && cd chksys && \`
+`chmod go-rwx chksys && chmod u+x chksys && cp chksys /usr/local/bin`
 
 Use Me
 ------
