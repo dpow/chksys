@@ -15,8 +15,8 @@
 umask 077			# No-one gets rwx but me!
 \unalias -a			# Unset all aliases
 hash -r				# Clear the command path hash
-ulimit -H -c 0 --	# Set the hard limit to 0 to turn off core dumps
-IFS=$' \t\n'		# Set a sane/secure IFS (NOTE: bash & ksh93 syntax only!)
+ulimit -H -c 0 --		# Set the hard limit to 0 to turn off core dumps
+IFS=$' \t\n'			# Set a sane/secure IFS (NOTE: bash & ksh93 syntax only!)
 
 
 
