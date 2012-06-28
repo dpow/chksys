@@ -6,7 +6,7 @@ Install Me
 ----------
 Non-one-liners need not apply.
 
-`git clone https://github.com/dpow/chksys.git && cd chksys && chmod u+x chksys && cp chksys /usr/local/bin`
+`git clone https://github.com/dpow/chksys.git && cd chksys && cp chksys.sh chksys && chmod u+x chksys && cp chksys /usr/local/bin`
 
 Use Me
 ------
