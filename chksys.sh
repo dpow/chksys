@@ -28,6 +28,8 @@ PERMS_DIFF_FILE="/var/log/perms.diff"
 SUMS_LOG_FILE="/var/log/sums.log"
 SUMS_DIFF_FILE="/var/log/sums.diff"
 
+# Replace $HOME/* and $HOME/bin/* in $SUMS_SRC_DIRS and $HOME and $HOME/bin in $PERMS_SRC_DIRS 
+# with your literal home directory filepaths. 
 SUMS_SRC_DIRS='/bin/* /boot/* /etc/* $HOME/* $HOME/bin/* /root /sbin/* /usr/include/* /usr/local/* /usr/local/bin/* /usr/local/etc/* /usr/src/* /var/cron/* /var/log/*'
 PERMS_SRC_DIRS='/bin /boot /etc $HOME $HOME/bin /root /sbin /usr/include /usr/local /usr/local/bin /usr/local/etc /usr/src /var/cron /var/log'
 
