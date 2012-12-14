@@ -96,7 +96,7 @@ record_fs_state() {
 	# Compute the checksums of files we want to monitor
 	for f in $SUMS_SRC_DIRS; 
 	do
-		sha1 -r $f >> $SUMS_LOG_FILE
+		sha256 -r $f >> $SUMS_LOG_FILE
 	done
 }
 
@@ -110,7 +110,7 @@ get_new_fs_state() {
 	# Compute the current file checksums
 	for f in $SUMS_SRC_DIRS; 
 	do
-		sha1 -r $f >> $SUMS_DIFF_FILE
+		sha256 -r $f >> $SUMS_DIFF_FILE
 	done
 }
 
