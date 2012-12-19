@@ -3,7 +3,7 @@
 # chksys - Basic filesystem security check.
 #          Manages permissions and checksums separately for the time being.
 #          Generates list of and verifies ownership, permissions, and 
-#          sha1sums of critical system files.
+#          sha256sums of critical system files.
 # Author:  Dylan Powell, (C) Copyright 2012
 # License: Beerware, see LICENSE for details
 #
